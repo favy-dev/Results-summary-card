@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Hanken Grotesk;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  max-width: 600px;
+  height: 480px;
+  display: flex;
+  border-radius: 40px;
+  box-shadow: hsla(166, 100%, 37%, 0.09) 0px 14px 28px, hsla(166, 100%, 37%, 0.09)0px 12px 12px;
+}
+.item1 {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item1 h1{
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  font-size: 25px;
+}
+.score {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score #p{
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+  font-size: 50px;
+}
+.score #p1{
+  color: hsla(241, 100%, 89%, 0.5);
+  font-size: 14px;
+}
+.txt {
+  width: 70%;
+  text-align: center;
+}
+.txt #p2{
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 24px;
+}
+.txt #p3{
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  font-size: 15px;
+}
+.item2 {
+  width: 50%;
+  border-radius: 40px;
+  display: grid;
+  align-content: flex-start;
+  padding: 46px 30px;
+}
+.item2 h3 {
+  width: 100%;
+  font-weight: 500;
+  color: hsl(224, 30%, 27%);
+  font-size: 25px;
+}
+.category {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-content: flex-start;
+  grid-gap: 16px;
+}
+.mainbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+  border-radius: 8px;
+  padding: 12px;
+}
+.first {
+  color: hsl(0, 100%, 67%);
+  border-color: hsl(0, 100%, 67%), hsl(0, 100%, 67%), hsl(0, 100%, 67%), hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.07);
+}
+.second {
+  color: hsl(39, 100%, 56%);
+  border-color: hsl(39, 100%, 56%), hsl(39, 100%, 56%), hsl(39, 100%, 56%), hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.07);
+}
+.third {
+  color: hsl(166, 100%, 37%);
+  border-color: hsl(166, 100%, 37%), hsl(166, 100%, 37%), hsl(166, 100%, 37%), hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.07);
+}
+.fourth {
+  color: hsl(234, 85%, 45%);
+  border-color: hsl(234, 85%, 45%), hsl(234, 85%, 45%), hsl(234, 85%, 45%), hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.07);
+}
+.flex {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.flex img {
+  width: 21%;
+  height: auto;
+}
+.t {
+  width: 29.5%;
+}
+.f {
+  width: 28.5%;
+}
+.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.scores {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+#s100 {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+.last{
+  height: 5.1rem;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last button {
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px 0px;
+}
+.last a {
+  width: 100%;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.last button:hover {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+footer {
+  font-size: 14px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
